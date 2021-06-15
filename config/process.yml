@@ -1,0 +1,12 @@
+apps:
+  - script: /home/antonio/projects/node-projects/projects/hairdressers-app/hairdresser-api/dist/src/main.js
+    name: "B-Gastro"
+    env:
+      NODE_ENV: development
+      DB_USERNAME: root
+      DB_PASSWORD: example
+      DB_NAME: hairdresser_salon
+      DB_HOST: 0.0.0.0
+      DB_PORT: 5432
+      PORT: 3000
+      APP_SECRET: 544beae577b4bcabd2239c1236358ddd
